@@ -18,7 +18,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-ink text-paper border-b border-line">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 sm:h-20">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="font-display text-xl sm:text-2xl tracking-tight">
+          <span className="font-display text-xl sm:text-2xl">
             SÚNG<span className="text-yellow">PHUN</span>SƠN
           </span>
           <span className="hidden sm:inline text-[10px] tracking-[0.2em] text-paper/60 border-l border-line pl-2 ml-1">

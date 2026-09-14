@@ -30,9 +30,9 @@ export default function HomePage() {
             <p className="inline-block text-yellow font-semibold text-sm tracking-widest uppercase mb-4">
               DeVilbiss · Wagner · Binks · Anest Iwata
             </p>
-            <h1 className="font-display text-4xl sm:text-6xl leading-[1.05] tracking-tight">
-              SÚNG PHUN SƠN<br />
-              <span className="text-yellow">CHÍNH HÃNG</span>
+            <h1 className="font-display font-semibold text-5xl sm:text-7xl leading-[1.02] uppercase">
+              Súng Phun Sơn<br />
+              <span className="text-yellow">Chính Hãng</span>
             </h1>
             <p className="mt-6 text-paper/70 text-base sm:text-lg max-w-lg">
               Nhà phân phối thiết bị phun sơn chính hãng tại Việt Nam — hơn 10 năm đồng hành cùng garage ô tô,

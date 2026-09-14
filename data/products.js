@@ -444,6 +444,57 @@ export const products = [
     description: "Máy đo độ ẩm Wagner Orion 910 hỗ trợ kiểm tra độ ẩm vật liệu gỗ và bề mặt công trình trước khi sơn phủ.",
     highlights: ["Đo độ ẩm vật liệu gỗ", "Kiểm tra trước thi công"],
   },
+
+  // ===== BINKS =====
+  {
+    slug: "binks-jgx-502",
+    brand: "binks",
+    category: "oto",
+    name: "Binks JGX-502",
+    image: "/products/binks/jgx-502.jpg",
+    feedType: "Gravity/Suction",
+    shortDesc: "Súng phun sơn công nghệ DeVilbiss, nhẹ, xử lý tốt sơn metallic & Pearl Mica.",
+    description:
+      "Binks JGX-502 phân phối bởi Nhất Quán, ứng dụng công nghệ phun sơn DeVilbiss, phát triển riêng cho thị trường Nhật Bản. Súng nhẹ nhưng đạt hiệu suất tán sương vượt trội, phù hợp cho garage sơn ô tô chuyên nghiệp.",
+    highlights: ["Công nghệ DeVilbiss", "Xử lý tốt sơn metallic & Pearl Mica", "Trọng lượng nhẹ"],
+  },
+  {
+    slug: "binks-jck",
+    brand: "binks",
+    category: "oto",
+    name: "Binks JCK",
+    image: "/products/binks/jck.jpg",
+    feedType: "Đa dụng",
+    weight: "290g",
+    shortDesc: "Súng đa dụng gọn nhẹ, công nghệ tán sương đã được kiểm chứng.",
+    description:
+      "Binks JCK là súng phun sơn đa dụng kích thước gọn nhẹ, ứng dụng công nghệ tán sương đã được kiểm chứng, phù hợp cho công việc phun phủ tổng quát tại garage sơn ô tô.",
+    highlights: ["Trọng lượng nhẹ 290g", "Công nghệ tán sương đã kiểm chứng", "Phun phủ tổng quát"],
+  },
+  {
+    slug: "binks-finishline-flg-4",
+    brand: "binks",
+    category: "go-noi-that",
+    name: "Binks FinishLine FLG-4",
+    image: "/products/binks/flg-4.png",
+    feedType: "Gravity feed",
+    shortDesc: "Súng phun sơn gravity feed dòng FinishLine, phổ biến cho sơn gỗ nội thất.",
+    description:
+      "Binks FinishLine FLG-4 là súng phun sơn gravity feed thuộc dòng FinishLine, thiết kế thực dụng, dễ điều chỉnh, phù hợp cho ngành sơn gỗ nội thất và các ứng dụng công nghiệp nhẹ.",
+    highlights: ["Dòng FinishLine", "Dễ điều chỉnh", "Phù hợp sơn gỗ nội thất"],
+  },
+  {
+    slug: "binks-gfg-pro",
+    brand: "binks",
+    category: "cong-nghiep",
+    name: "Binks GFG Pro",
+    image: "/products/binks/gfg-pro.png",
+    feedType: "Bán tự động",
+    shortDesc: "Súng phun bán tự động Binks GFG Pro cho ứng dụng công nghiệp.",
+    description:
+      "Binks GFG Pro là súng phun sơn bán tự động, phù hợp tích hợp vào các trạm phun sơn công nghiệp cần độ ổn định và lặp lại cao.",
+    highlights: ["Bán tự động", "Ổn định, lặp lại cao", "Phù hợp trạm phun công nghiệp"],
+  },
 ];
 
 export function getProductsByBrand(brandSlug) {
@@ -455,5 +506,18 @@ export function getProductBySlug(slug) {
 }
 
 export function getFeaturedProducts(limit = 8) {
-  return products.filter((p) => p.category === "oto" || p.brand === "wagner").slice(0, limit);
+  const brandOrder = ["devilbiss", "wagner", "binks", "anest-iwata"];
+  const perBrand = Math.ceil(limit / brandOrder.length);
+  const picked = brandOrder.flatMap((brand) => getProductsByBrand(brand).slice(0, perBrand));
+  if (picked.length < limit) {
+    for (const brand of brandOrder) {
+      if (picked.length >= limit) break;
+      const extra = getProductsByBrand(brand).slice(perBrand);
+      for (const p of extra) {
+        if (picked.length >= limit) break;
+        picked.push(p);
+      }
+    }
+  }
+  return picked.slice(0, limit);
 }

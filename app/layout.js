@@ -1,4 +1,4 @@
-import { Inter, Archivo_Black } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,9 +8,9 @@ const bodyFont = Inter({
   subsets: ["latin", "vietnamese"],
 });
 
-const displayFont = Archivo_Black({
+const displayFont = Oswald({
   variable: "--font-display",
-  weight: "400",
+  weight: ["500", "600", "700"],
   subsets: ["latin", "vietnamese"],
 });
 
