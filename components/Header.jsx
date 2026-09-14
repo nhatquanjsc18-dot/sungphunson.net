@@ -5,8 +5,6 @@ import { useState } from "react";
 
 const NAV = [
   { href: "/san-pham", label: "Sản phẩm" },
-  { href: "/san-pham?brand=devilbiss", label: "DeVilbiss" },
-  { href: "/san-pham?brand=wagner", label: "Wagner" },
   { href: "/bai-viet", label: "Bài viết" },
   { href: "/gioi-thieu", label: "Giới thiệu" },
   { href: "/lien-he", label: "Liên hệ" },
