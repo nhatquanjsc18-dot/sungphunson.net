@@ -274,6 +274,33 @@ export const articles = [
       { type: "p", text: "Nếu mới bắt đầu hoặc dùng cho công việc tổng quát, Katana Plus là lựa chọn dễ tiếp cận nhất. Garage sơn ô tô chuyên nghiệp nên đầu tư theo cặp Base/Clear như LS-400 hoặc WS-400 Series. Xưởng gỗ nội thất phù hợp nhất với WIDER2L. Xem đầy đủ thông số từng model tại trang sản phẩm hoặc liên hệ hotline 0907 811 767 để được tư vấn chọn đúng model theo nhu cầu thực tế." },
     ],
   },
+  {
+    slug: "son-lot-o-to-may-lop-la-du",
+    title: "Sơn lót ô tô mấy lớp là đủ? Kỹ thuật phun 3 lớp primer không cần bả matit",
+    excerpt:
+      "Nhiều thợ sơn chia sẻ mẹo phun 2–3 lớp sơn lót dày để làm phẳng vết xước, vết lõm nhỏ thay vì bả matit. Khi nào kỹ thuật này dùng được, khi nào vẫn cần bả matit?",
+    date: "2026-04-10",
+    keywords: ["sơn lót ô tô mấy lớp", "súng phun sơn lót", "sơn lót ô tô"],
+    relatedProducts: ["devilbiss-advance-hd", "devilbiss-jga-pro"],
+    blocks: [
+      { type: "p", text: "Nhiều thợ sơn ô tô truyền tai nhau một mẹo tiết kiệm thời gian: thay vì bả matit (filler) rồi mới lót, có thể phun trực tiếp 2–3 lớp sơn lót (primer) dày để làm phẳng những vết lõm nhỏ, vết xước nông trên bề mặt kim loại. Một đoạn clip thực tế lan truyền trên mạng xã hội ghi lại đúng quá trình này: kỹ thuật viên phun lần lượt từng lớp primer lên nắp ca-pô, đến lớp thứ ba bề mặt đã phẳng mịn, sẵn sàng để mài và sơn màu — đúng như chú thích trong video: \"Ba lớp sơn lót, không cần gì khác.\"" },
+      { type: "h2", text: "Vì sao sơn lót có thể thay bả matit ở mức độ nhất định" },
+      { type: "p", text: "Sơn lót (primer surfacer) có hàm lượng chất rắn cao hơn sơn màu thông thường, tạo lớp phủ dày hơn mỗi lượt phun. Khi phun nhiều lớp chồng lên nhau đúng kỹ thuật — để khô đủ giữa các lớp — primer sẽ lấp đầy các khuyết điểm rất nhỏ như vết xước nông, lỗ rỗ li ti mà không cần dùng bả matit." },
+      { type: "h2", text: "Lưu ý kỹ thuật khi phun nhiều lớp primer" },
+      {
+        type: "ul",
+        items: [
+          "Chỉ áp dụng cho khuyết điểm rất nhỏ (dưới 1mm); vết lõm sâu vẫn cần bả matit trước.",
+          "Để khô (flash time) đủ giữa mỗi lớp theo khuyến nghị nhà sản xuất sơn, tránh phun chồng quá sớm gây nứt, co ngót.",
+          "Dùng súng phun sơn lót béc phun lớn (1.4–1.8mm), lưu lượng sơn cao để tạo lớp dày đều — như DeVilbiss Advance HD hoặc JGA Pro.",
+          "Sau lớp cuối, để khô hoàn toàn rồi mài phẳng bằng giấy nhám mịn trước khi sơn màu.",
+        ],
+      },
+      { type: "h2", text: "Khi nào vẫn cần bả matit" },
+      { type: "p", text: "Với vết lõm sâu, biến dạng khung xe hoặc diện tích hư hỏng lớn, bả matit vẫn là bước bắt buộc trước khi lót — phun nhiều lớp primer chỉ xử lý được khuyết điểm bề mặt rất nhỏ, không thay thế hoàn toàn quy trình sửa chữa thân vỏ tiêu chuẩn." },
+      { type: "p", text: "Chọn đúng súng phun sơn lót và tuân thủ thời gian khô giữa các lớp là yếu tố quyết định độ phẳng mịn cuối cùng. Liên hệ hotline 0907 811 767 để được tư vấn chọn súng và loại primer phù hợp." },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug) {
