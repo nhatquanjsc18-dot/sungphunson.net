@@ -301,6 +301,251 @@ export const articles = [
       { type: "p", text: "Chọn đúng súng phun sơn lót và tuân thủ thời gian khô giữa các lớp là yếu tố quyết định độ phẳng mịn cuối cùng. Liên hệ hotline 0907 811 767 để được tư vấn chọn súng và loại primer phù hợp." },
     ],
   },
+  {
+    slug: "dong-ho-do-ap-suat-khi-tren-sung-phun-son",
+    title: "Đồng hồ đo áp suất khí trên súng phun sơn: Vì sao cần thiết?",
+    excerpt:
+      "Nhiều thợ sơn gắn thêm đồng hồ đo áp suất khí ngay tại thân súng thay vì chỉ chỉnh ở máy nén khí. Vì sao chi tiết nhỏ này lại ảnh hưởng trực tiếp đến chất lượng lớp sơn?",
+    date: "2026-04-15",
+    keywords: ["đồng hồ áp suất súng phun sơn", "áp suất phun sơn", "chỉnh áp súng phun sơn"],
+    relatedProducts: ["devilbiss-gti-pro-lite", "anest-iwata-ls-400-series2-base"],
+    blocks: [
+      { type: "p", text: "Quan sát nhiều thợ sơn chuyên nghiệp sẽ thấy một chi tiết nhỏ nhưng quan trọng: một đồng hồ đo áp suất khí (air pressure gauge) được lắp trực tiếp vào đầu vào khí của súng phun sơn, thay vì chỉ dựa vào đồng hồ trên máy nén khí ở xa. Đây không phải chi tiết thừa — áp suất khí đo tại máy nén và áp suất khí thực tế tới được súng có thể chênh lệch đáng kể do độ dài ống dẫn, đường kính ống và các khớp nối." },
+      { type: "h2", text: "Vì sao áp suất đo tại súng chính xác hơn" },
+      { type: "p", text: "Khí nén khi di chuyển qua ống dẫn dài sẽ tụt áp (pressure drop) do ma sát, đặc biệt nếu ống nhỏ hoặc có nhiều khớp nối. Với súng HVLP — vốn yêu cầu áp suất tại đầu vòi rất chính xác (thường dưới 10 psi) để đạt hiệu suất chuyển sơn tối ưu — chênh lệch dù nhỏ cũng làm thay đổi độ tán sương, dễ gây hạt sơn thô hoặc lớp phủ không đều." },
+      { type: "h2", text: "Khi nào nên gắn đồng hồ tại súng" },
+      {
+        type: "ul",
+        items: [
+          "Khi dùng súng HVLP đòi hỏi áp suất chính xác cho sơn bóng, sơn màu ô tô cao cấp.",
+          "Khi hệ thống ống dẫn khí dài hoặc đi qua nhiều khớp nối, cuộn ống.",
+          "Khi cần đảm bảo áp suất ổn định giữa nhiều lượt phun trong cùng một công đoạn.",
+          "Khi chuyển đổi qua lại giữa nhiều loại sơn có yêu cầu áp suất khác nhau.",
+        ],
+      },
+      { type: "p", text: "Nhiều dòng súng cao cấp như Anest Iwata LS-400 Series hỗ trợ tương thích bộ điều áp số gắn ngay tại súng, giúp thợ sơn chỉnh áp chính xác mà không ảnh hưởng thao tác cầm súng. Liên hệ hotline 0907 811 767 để được tư vấn phụ kiện đo áp phù hợp với dàn máy nén khí hiện có." },
+    ],
+  },
+  {
+    slug: "khoang-cach-va-goc-do-phun-son-dung-ky-thuat",
+    title: "Khoảng cách và góc độ phun sơn đúng kỹ thuật là bao nhiêu?",
+    excerpt:
+      "Giữ súng quá gần, quá xa hay nghiêng góc sai đều khiến lớp sơn không đều, chảy sơn hoặc khô bụi. Hướng dẫn khoảng cách và góc phun chuẩn cho từng loại súng.",
+    date: "2026-04-18",
+    keywords: ["khoảng cách phun sơn", "kỹ thuật phun sơn ô tô", "góc độ súng phun sơn"],
+    relatedProducts: ["devilbiss-dv1-basecoat", "devilbiss-sri-pro"],
+    blocks: [
+      { type: "p", text: "Khoảng cách và góc độ giữa súng phun sơn và bề mặt là hai yếu tố kỹ thuật cơ bản nhưng quyết định phần lớn chất lượng lớp sơn hoàn thiện. Nhìn cách các thợ sơn chuyên nghiệp thao tác, súng luôn được giữ vuông góc (90°) với bề mặt và di chuyển song song, đều tay dọc theo panel thay vì phun theo hình vòng cung." },
+      { type: "h2", text: "Khoảng cách chuẩn theo loại súng" },
+      {
+        type: "ul",
+        items: [
+          "Súng HVLP: khoảng cách lý tưởng 15–20cm — gần hơn conventional do áp suất thấp, khí không đẩy sơn đi xa.",
+          "Súng conventional (áp suất cao): khoảng cách 20–25cm, xa hơn để tránh chảy sơn cục bộ.",
+          "Sơn lót (primer): có thể giữ gần hơn một chút để tạo lớp phủ dày, lấp khuyết điểm bề mặt.",
+        ],
+      },
+      { type: "h2", text: "Lỗi thường gặp khi sai khoảng cách/góc độ" },
+      {
+        type: "ul",
+        items: [
+          "Giữ súng quá gần: sơn dễ chảy (runs/sags), lớp phủ dày không đều.",
+          "Giữ súng quá xa: sơn khô thành bụi trước khi chạm bề mặt (dry spray), bề mặt sần sùi, độ bóng kém.",
+          "Nghiêng góc súng thay vì giữ vuông góc: một mép vệt phun đậm, mép còn lại nhạt, dễ để lại vệt lằn khi chồng lớp.",
+        ],
+      },
+      { type: "p", text: "Nguyên tắc chung: giữ súng vuông góc, khoảng cách ổn định, tốc độ di chuyển tay đều — chồng mép mỗi lượt phun khoảng 50% để tránh vệt lằn. Súng phun sơn chất lượng tốt như DeVilbiss DV1 hay SRi Series giúp việc kiểm soát khoảng cách dễ dàng hơn nhờ tia phun ổn định. Gọi 0907 811 767 để được demo thực tế trước khi mua." },
+    ],
+  },
+  {
+    slug: "tieu-chuan-phong-son-spray-booth-can-gi",
+    title: "Phòng sơn (spray booth) đạt chuẩn cần những gì?",
+    excerpt:
+      "Sàn lưới thép, hệ thống lọc khí và ánh sáng đều là những yếu tố quyết định chất lượng lớp sơn cuối cùng. Tìm hiểu các tiêu chuẩn cơ bản của một phòng sơn ô tô chuyên nghiệp.",
+    date: "2026-04-22",
+    keywords: ["phòng sơn ô tô", "spray booth", "tiêu chuẩn phòng sơn"],
+    relatedProducts: ["devilbiss-tekna-pro", "devilbiss-neptune-pressure"],
+    blocks: [
+      { type: "p", text: "Chất lượng lớp sơn hoàn thiện không chỉ phụ thuộc vào súng phun sơn hay tay nghề thợ sơn, mà còn chịu ảnh hưởng lớn từ môi trường phun sơn. Một phòng sơn (spray booth) đạt chuẩn với sàn lưới thép, hệ thống hút lọc khí liên tục là điều kiện gần như bắt buộc đối với các garage sơn ô tô chuyên nghiệp làm việc thường xuyên với sơn gốc dung môi và sơn 2K." },
+      { type: "h2", text: "Các yếu tố cơ bản của phòng sơn chuẩn" },
+      {
+        type: "ul",
+        items: [
+          "Sàn lưới thép (grating floor): cho phép khí lưu thông từ trên xuống, hút bụi và hơi dung môi xuống dưới thay vì bay ngược lên bề mặt vừa sơn.",
+          "Hệ thống lọc khí đầu vào và đầu ra: giữ không khí sạch, hạn chế bụi bẩn bám vào lớp sơn ướt.",
+          "Ánh sáng đều, đủ độ sáng: giúp thợ sơn nhìn rõ độ đều màu và phát hiện lỗi ngay khi đang phun.",
+          "Kiểm soát nhiệt độ và độ ẩm: ảnh hưởng trực tiếp đến thời gian khô và độ bám dính của sơn 2K.",
+        ],
+      },
+      { type: "h2", text: "Garage nhỏ chưa có phòng sơn thì sao?" },
+      { type: "p", text: "Với garage quy mô nhỏ chưa đầu tư phòng sơn kín, vẫn có thể đảm bảo chất lượng cơ bản bằng cách che chắn khu vực phun kín gió, hạn chế bụi, và ưu tiên súng phun sơn có hiệu suất chuyển sơn cao (HVLP) để giảm overspray phát tán ra môi trường xung quanh." },
+      { type: "p", text: "Cần tư vấn thiết bị phù hợp với điều kiện xưởng hiện có (có hoặc chưa có phòng sơn)? Gọi hotline 0907 811 767 để được khảo sát và đề xuất giải pháp phù hợp." },
+    ],
+  },
+  {
+    slug: "dau-hieu-nhan-biet-son-lot-dat-chuan",
+    title: "Dấu hiệu nhận biết sơn lót đã đạt chuẩn trước khi sơn màu",
+    excerpt:
+      "Bề mặt sau khi lót cần đạt những tiêu chí nào trước khi chuyển sang bước sơn màu? Nhận biết sớm giúp tránh phải làm lại toàn bộ quy trình.",
+    date: "2026-04-25",
+    keywords: ["sơn lót đạt chuẩn", "kiểm tra lớp sơn lót", "sơn lót ô tô"],
+    relatedProducts: ["devilbiss-jga-pro", "devilbiss-advance-hd"],
+    blocks: [
+      { type: "p", text: "Sau khi phun xong các lớp sơn lót (primer) và để khô, bề mặt cần đạt một số tiêu chí nhất định trước khi chuyển sang bước sơn màu. Bỏ qua bước kiểm tra này là nguyên nhân phổ biến khiến lớp sơn màu sau cùng bị lộ khuyết điểm dù đã tốn công phun lót kỹ lưỡng." },
+      { type: "h2", text: "3 tiêu chí kiểm tra bề mặt sau khi lót" },
+      {
+        type: "ul",
+        items: [
+          "Độ phẳng: dùng tay miết nhẹ hoặc quan sát dưới ánh sáng chéo (cross light) để phát hiện gợn sóng, lõm nhỏ còn sót lại.",
+          "Độ mịn bề mặt: sau khi mài nhám, bề mặt phải mịn đều, không còn vết xước sâu hay hạt bụi bám dính.",
+          "Độ khô hoàn toàn: primer phải khô hoàn toàn theo đúng thời gian khuyến nghị của nhà sản xuất — sơn màu lên lớp lót chưa khô kỹ dễ gây bong tróc, nhăn sơn về sau.",
+        ],
+      },
+      { type: "h2", text: "Cách xử lý nếu phát hiện lỗi" },
+      { type: "p", text: "Nếu phát hiện gợn sóng hoặc lõm nhỏ sau khi mài, có thể phun bổ sung 1 lớp primer mỏng tại khu vực đó rồi mài lại, thay vì phải lột toàn bộ lớp lót. Với các lỗi lớn hơn hoặc primer bị nứt chân chim, nên xử lý lại từ bước bả matit." },
+      { type: "p", text: "Một lớp lót đạt chuẩn là nền tảng quyết định độ đều màu và độ bóng của lớp sơn hoàn thiện. Súng Phun Sơn .NET cung cấp đầy đủ súng phun sơn lót chính hãng DeVilbiss — liên hệ 0907 811 767 để được tư vấn." },
+    ],
+  },
+  {
+    slug: "ky-thuat-che-chan-masking-truoc-khi-son-oto",
+    title: "Kỹ thuật che chắn (masking) đúng cách trước khi sơn ô tô",
+    excerpt:
+      "Che chắn kính, gương, viền cao su không kỹ là nguyên nhân phổ biến khiến sơn lem ra ngoài, phải xử lý lại tốn thời gian. Hướng dẫn masking đúng chuẩn trước khi phun sơn.",
+    date: "2026-04-29",
+    keywords: ["masking ô tô", "che chắn trước khi sơn xe", "kỹ thuật masking"],
+    relatedProducts: ["devilbiss-advance-hd", "wagner-ag08"],
+    blocks: [
+      { type: "p", text: "Trước khi phun bất kỳ lớp sơn nào, bước che chắn (masking) toàn bộ các khu vực không sơn — kính, gương, tay nắm cửa, viền cao su, lốp xe — quyết định phần lớn việc lớp sơn cuối cùng có gọn gàng, sắc nét hay không. Với các dự án sơn toàn bộ xe, việc bọc kín bằng băng keo chuyên dụng và màng nhựa phủ là bắt buộc." },
+      { type: "h2", text: "Nguyên tắc masking cơ bản" },
+      {
+        type: "ul",
+        items: [
+          "Dùng băng keo giấy (masking tape) chuyên dụng cho sơn ô tô, không dùng băng keo thường dễ để lại keo dính hoặc bong ra khi gặp dung môi.",
+          "Dán viền băng keo sát mép chi tiết cần bảo vệ, miết chặt để sơn không luồn vào bên dưới.",
+          "Dùng màng nhựa/giấy che phủ diện tích lớn (kính chắn gió, toàn bộ nội thất nếu mở cửa) thay vì chỉ dán băng keo viền.",
+          "Với sửa chữa một chi tiết nhỏ (sơn dặm), chỉ cần che chắn đúng phần đó và các khu vực lân cận trực tiếp tiếp xúc tia phun.",
+        ],
+      },
+      { type: "h2", text: "Vì sao không nên làm tắt bước này" },
+      { type: "p", text: "Sơn lem ra viền cao su, kính hay tay nắm cửa không chỉ mất thẩm mỹ mà còn tốn thời gian xử lý lại bằng dung môi hoặc mài — có thể làm hỏng bề mặt nhựa/cao su gốc. Dành đủ thời gian masking kỹ lưỡng trước khi phun luôn nhanh hơn việc phải sửa lỗi sau đó." },
+      { type: "p", text: "Súng Phun Sơn .NET cung cấp đầy đủ thiết bị hỗ trợ cho garage sơn ô tô chuyên nghiệp. Gọi hotline 0907 811 767 để được tư vấn combo thiết bị phù hợp." },
+    ],
+  },
+  {
+    slug: "do-bao-ho-lao-dong-can-thiet-khi-phun-son-oto",
+    title: "Đồ bảo hộ lao động cần thiết khi phun sơn ô tô",
+    excerpt:
+      "Hơi sơn và dung môi ảnh hưởng trực tiếp đến sức khỏe hô hấp và da nếu không có bảo hộ đúng cách. Danh sách đồ bảo hộ tối thiểu cho thợ sơn ô tô.",
+    date: "2026-05-03",
+    keywords: ["đồ bảo hộ phun sơn", "bảo hộ lao động sơn ô tô", "an toàn khi phun sơn"],
+    relatedProducts: ["devilbiss-dv1-clearcoat", "devilbiss-tekna-pro"],
+    blocks: [
+      { type: "p", text: "Phun sơn ô tô, đặc biệt với sơn 2K gốc dung môi, phát sinh hơi hoá chất và bụi sơn mịn có thể gây hại cho đường hô hấp, mắt và da nếu tiếp xúc thường xuyên không có bảo hộ. Quan sát các thợ sơn chuyên nghiệp làm việc trong phòng sơn sẽ thấy họ luôn mặc bộ đồ bảo hộ toàn thân (coverall) kín từ cổ đến chân trước khi cầm súng phun." },
+      { type: "h2", text: "Danh sách đồ bảo hộ tối thiểu" },
+      {
+        type: "ul",
+        items: [
+          "Bộ đồ liền thân (coverall/Tyvek suit): chống bám bụi sơn lên quần áo và da, có mũ trùm đầu.",
+          "Mặt nạ phòng độc (respirator) đạt chuẩn lọc hơi hữu cơ: quan trọng nhất khi phun sơn 2K, isocyanate trong sơn cứng có thể gây hại phổi nếu hít phải lâu dài.",
+          "Kính bảo hộ: tránh sơn/dung môi bắn vào mắt khi phun ở góc thấp hoặc cao.",
+          "Găng tay chống hoá chất: bảo vệ da tay khỏi tiếp xúc trực tiếp với sơn và dung môi pha loãng.",
+        ],
+      },
+      { type: "h2", text: "Vì sao không nên chủ quan" },
+      { type: "p", text: "Nhiều thợ sơn làm việc lâu năm có thói quen chủ quan bỏ qua bảo hộ vì thấy \"quen rồi\", nhưng tác hại của hơi dung môi và isocyanate thường tích luỹ âm thầm theo thời gian, ảnh hưởng hô hấp về lâu dài chứ không biểu hiện ngay lập tức." },
+      { type: "p", text: "Đầu tư đồ bảo hộ đầy đủ song song với súng phun sơn chất lượng cao (giảm overspray, ít hao phí hơi sơn ra môi trường) là cách bảo vệ sức khoẻ hiệu quả nhất. Liên hệ 0907 811 767 để được tư vấn thiết bị." },
+    ],
+  },
+  {
+    slug: "son-dam-mot-chi-tiet-che-chan-tung-phan",
+    title: "Sơn dặm một chi tiết: kỹ thuật che chắn từng phần chuẩn xác",
+    excerpt:
+      "Khi chỉ cần sơn lại một cửa xe hay một chi tiết nhỏ, che chắn đúng phạm vi giúp tiết kiệm sơn, tránh ảnh hưởng các phần đã sơn đạt màu chuẩn.",
+    date: "2026-05-06",
+    keywords: ["sơn dặm ô tô", "sơn lại một chi tiết xe", "che chắn từng phần"],
+    relatedProducts: ["devilbiss-sri-pro-lite", "devilbiss-prolite-s-touchup"],
+    blocks: [
+      { type: "p", text: "Không phải lúc nào sơn xe cũng cần phun lại toàn bộ thân xe — trong nhiều trường hợp chỉ một chi tiết như cửa, chắn bùn hay ca-pô bị trầy xước, móp nhẹ cần xử lý. Kỹ thuật che chắn từng phần (partial masking) khi đó khác hẳn masking toàn xe: cần xác định chính xác ranh giới vùng phun để không ảnh hưởng các panel lân cận đã đạt màu chuẩn." },
+      { type: "h2", text: "Nguyên tắc xác định ranh giới che chắn" },
+      {
+        type: "ul",
+        items: [
+          "Che chắn ngay tại đường gờ, rãnh phân cách giữa các panel — nơi mắt thường khó nhận ra vệt chuyển màu nếu có sai lệch nhẹ.",
+          "Với các bề mặt liền mạch không có đường gờ rõ ràng, cần kỹ thuật \"blend\" (chuyển màu mờ dần) thay vì cắt ranh giới cứng.",
+          "Bọc kín các chi tiết dễ bị ảnh hưởng như tay nắm cửa, gương, lốp xe ngay cả khi không nằm trong vùng phun chính — tránh sơn bay lạc theo gió.",
+        ],
+      },
+      { type: "h2", text: "Lợi ích của sơn dặm đúng kỹ thuật" },
+      { type: "p", text: "Sơn dặm chính xác giúp tiết kiệm đáng kể vật liệu sơn so với phun lại toàn xe, đồng thời rút ngắn thời gian sửa chữa. Tuy nhiên đòi hỏi tay nghề cao hơn để đảm bảo màu sắc chuyển tiếp mượt mà, không để lại viền hoặc chênh lệch độ bóng." },
+      { type: "p", text: "Súng phun sơn nhỏ gọn như DeVilbiss SRi Pro Lite hoặc PROLite-S Touch Up giúp thao tác chính xác trong phạm vi hẹp khi sơn dặm. Gọi 0907 811 767 để được tư vấn chọn súng phù hợp." },
+    ],
+  },
+  {
+    slug: "ma-mau-son-oto-kho-pha",
+    title: "Mã màu sơn ô tô khó pha: Vì sao một số màu 'phức tạp' hơn?",
+    excerpt:
+      "Không phải mã màu nào cũng dễ pha giống hệt màu gốc nhà sản xuất. Tìm hiểu vì sao một số mã màu metallic, pearl được xem là khó pha đối với thợ sơn.",
+    date: "2026-05-10",
+    keywords: ["mã màu sơn ô tô khó pha", "pha màu sơn ô tô", "màu sơn metallic khó pha"],
+    relatedProducts: ["devilbiss-tekna-copper", "devilbiss-dv1-basecoat"],
+    blocks: [
+      { type: "p", text: "Trong giới thợ sơn ô tô, một số mã màu được truyền tai nhau là \"khó pha\" hơn hẳn các màu còn lại — không phải do công thức pha phức tạp hơn về mặt kỹ thuật, mà vì độ nhạy cảm cao với sai số nhỏ trong tỷ lệ pha, kỹ thuật phun và điều kiện ánh sáng khi kiểm tra màu." },
+      { type: "h2", text: "Vì sao màu metallic và pearl khó pha hơn màu trơn" },
+      { type: "p", text: "Với màu trơn (solid color), mắt thường khó nhận ra sai lệch nhỏ về sắc độ. Nhưng với màu metallic hoặc pearl — chứa các hạt nhôm hoặc hạt xà cừ phản chiếu ánh sáng — chỉ cần sai khác nhỏ về kỹ thuật phun (khoảng cách, số lớp, thời gian giữa các lớp) cũng khiến các hạt kim loại sắp xếp khác đi, làm màu nhìn khác hẳn dưới các góc ánh sáng khác nhau (hiện tượng gọi là flop)." },
+      { type: "h2", text: "Yếu tố ảnh hưởng đến độ khó của một mã màu" },
+      {
+        type: "ul",
+        items: [
+          "Tỷ lệ hạt metallic/pearl trong công thức pha càng cao, càng nhạy cảm với kỹ thuật phun.",
+          "Màu có nhiều lớp hiệu ứng (tri-coat, màu chuyển sắc) đòi hỏi kiểm soát chính xác từng lớp.",
+          "Điều kiện ánh sáng khi kiểm tra màu (ánh sáng tự nhiên, đèn xưởng) có thể khiến cùng một màu nhìn khác nhau.",
+        ],
+      },
+      { type: "p", text: "Với các mã màu khó, nên test trên tấm mẫu trước khi phun lên xe thật, và dùng súng phun sơn có độ ổn định tia phun cao như DeVilbiss TEKNA Series để đảm bảo kết quả lặp lại chính xác giữa các lớp. Gọi 0907 811 767 để được tư vấn thiết bị phù hợp cho sơn màu hiệu ứng." },
+    ],
+  },
+  {
+    slug: "vi-sao-son-mau-basecoat-mo-xin-truoc-khi-phu-bong",
+    title: "Vì sao lớp sơn màu (basecoat) trông mờ xỉn trước khi phủ bóng?",
+    excerpt:
+      "Nhiều khách hàng lo lắng khi thấy xe sau khi sơn màu trông mờ, không bóng như kỳ vọng. Đây là hiện tượng bình thường trước khi phủ clearcoat, không phải lỗi sơn.",
+    date: "2026-05-13",
+    keywords: ["sơn basecoat mờ", "sơn màu ô tô chưa bóng", "clearcoat là gì"],
+    relatedProducts: ["devilbiss-dv1-clearcoat", "anest-iwata-ws-400-supernova-evotech"],
+    blocks: [
+      { type: "p", text: "Một hiện tượng khiến nhiều khách hàng lo lắng khi ghé xem xe đang sửa: sau khi thợ sơn hoàn tất lớp sơn màu (basecoat), bề mặt xe trông mờ, xỉn, hoàn toàn không có độ bóng như một chiếc xe hoàn thiện. Đây hoàn toàn là hiện tượng bình thường trong quy trình sơn 2 lớp (basecoat/clearcoat) tiêu chuẩn của ngành sơn ô tô hiện đại, không phải dấu hiệu lỗi." },
+      { type: "h2", text: "Vì sao basecoat không có độ bóng" },
+      { type: "p", text: "Basecoat là lớp chỉ chứa sắc tố tạo màu, không chứa nhựa tạo độ bóng (resin bóng) như lớp clearcoat. Sau khi khô, bề mặt basecoat có kết cấu mờ, hơi nhám để tạo độ bám tốt cho lớp clearcoat phía trên — đây là thiết kế có chủ đích của hệ sơn 2 lớp, không phải vấn đề pha màu hay kỹ thuật phun." },
+      { type: "h2", text: "Độ bóng thật sự đến từ đâu" },
+      { type: "p", text: "Toàn bộ độ bóng, độ sâu và khả năng chống trầy xước, chống tia UV của lớp sơn hoàn thiện đến từ lớp clearcoat phủ ngoài cùng — thường 2 lớp clearcoat 2K được phun sau khi basecoat đã khô đủ thời gian flash. Sau khi clearcoat khô và được đánh bóng, bề mặt mới đạt độ bóng sâu như gương." },
+      { type: "p", text: "Nếu đang sửa xe và thấy lớp màu mờ, đừng vội lo lắng — hãy đợi lớp clearcoat hoàn thiện. Súng Phun Sơn .NET phân phối súng phun clearcoat chuyên dụng như DeVilbiss DV1 Clearcoat và Anest Iwata WS-400 Supernova Evotech. Gọi 0907 811 767 để được tư vấn." },
+    ],
+  },
+  {
+    slug: "he-thong-coc-son-dung-mot-lan-loi-ich",
+    title: "Hệ thống cốc sơn dùng một lần (disposable cup): Lợi ích cho thợ sơn",
+    excerpt:
+      "Thay vì rửa cốc sơn thủ công sau mỗi lần dùng, nhiều thợ sơn chuyển sang hệ thống cốc lót dùng một lần. Tìm hiểu lợi ích và cách hoạt động của hệ thống này.",
+    date: "2026-05-17",
+    keywords: ["cốc sơn dùng một lần", "disposable cup súng phun sơn", "hệ thống cốc sơn"],
+    relatedProducts: ["devilbiss-flg", "devilbiss-gti-pro-lite"],
+    blocks: [
+      { type: "p", text: "Một xu hướng ngày càng phổ biến trong các garage sơn ô tô chuyên nghiệp là chuyển từ cốc kim loại/nhựa truyền thống (phải rửa sạch bằng dung môi sau mỗi lần dùng) sang hệ thống cốc lót dùng một lần (disposable cup system) — sơn được pha và phun trực tiếp trong túi lót nhựa gắn vào cốc súng, dùng xong tháo bỏ, không cần vệ sinh." },
+      { type: "h2", text: "Lợi ích của hệ thống cốc dùng một lần" },
+      {
+        type: "ul",
+        items: [
+          "Tiết kiệm thời gian vệ sinh: không cần rửa cốc bằng dung môi sau mỗi lần đổi màu hoặc kết thúc ca làm việc.",
+          "Giảm hao phí dung môi vệ sinh, thân thiện hơn với môi trường làm việc và giảm chi phí vật tư tiêu hao.",
+          "Màng lọc tích hợp sẵn trong một số hệ thống giúp loại bỏ cặn sơn ngay khi rót, không cần lọc riêng.",
+          "Phun được ở nhiều góc độ (kể cả úp ngược, nằm ngang) nhờ thiết kế van một chiều chống rò rỉ.",
+        ],
+      },
+      { type: "h2", text: "Có phù hợp với mọi garage không" },
+      { type: "p", text: "Hệ thống cốc dùng một lần phù hợp nhất với garage có tần suất đổi màu sơn liên tục hoặc ưu tiên tối đa hoá thời gian làm việc thay vì thời gian vệ sinh dụng cụ. Với xưởng chỉ dùng 1–2 màu cố định, cốc truyền thống vẫn là lựa chọn tiết kiệm chi phí hơn về lâu dài." },
+      { type: "p", text: "Nhiều dòng súng gravity feed phổ biến như DeVilbiss GTi Pro Lite tương thích với các hệ thống cốc lót dùng một lần trên thị trường. Gọi 0907 811 767 để được tư vấn phụ kiện đi kèm." },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug) {
