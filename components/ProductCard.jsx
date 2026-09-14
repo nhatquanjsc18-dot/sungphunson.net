@@ -14,7 +14,7 @@ export default function ProductCard({ product }) {
       href={`/san-pham/${product.slug}`}
       className="group block bg-white rounded-2xl border border-black/5 overflow-hidden hover:border-yellow hover:shadow-xl hover:shadow-yellow/10 transition-all duration-300"
     >
-      <div className="relative aspect-square bg-[#f4f1e8] overflow-hidden">
+      <div className="relative aspect-square bg-white overflow-hidden">
         <Image
           src={product.image}
           alt={product.name}

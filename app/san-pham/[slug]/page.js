@@ -39,7 +39,7 @@ export default async function ProductDetailPage({ params }) {
 
       <div className="mt-6 grid lg:grid-cols-2 gap-10 lg:gap-16">
         <Reveal>
-          <div className="relative aspect-square bg-[#f4f1e8] rounded-2xl overflow-hidden">
+          <div className="relative aspect-square bg-white rounded-2xl overflow-hidden">
             <Image
               src={product.image}
               alt={product.name}
