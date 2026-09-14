@@ -25,13 +25,11 @@ Mở http://localhost:3000.
 
 ## ⚠️ Trước khi go-live
 
-1. **Form báo giá** (`components/QuoteForm.jsx`) dùng [FormSubmit.co](https://formsubmit.co) gửi về
-   `info@nhatquan.vn` — **cần đổi email nếu muốn nhận báo giá về hộp thư khác**, và lần gửi đầu tiên
-   FormSubmit sẽ gửi email xác nhận kích hoạt tới địa chỉ đó (bấm xác nhận 1 lần).
-2. Bổ sung thêm sản phẩm Binks / Anest Iwata nếu cần (ảnh 2 hãng này chưa lấy được do site nguồn
-   lazy-load ảnh — có thể chụp/upload thủ công vào `public/products/binks/`, `public/products/anest-iwata/`
-   rồi thêm entry vào `data/products.js`).
-3. Kiểm tra lại thông tin liên hệ (hotline `0907 811 767`, địa chỉ) khớp với thông tin thật của công ty.
+1. **Form báo giá** (`components/QuoteForm.jsx`) dùng [Web3Forms](https://web3forms.com), access key cấu
+   hình tại `data/site.json` (`web3formsAccessKey`) — đã test gửi thử thành công. Đăng nhập
+   web3forms.com bằng email đã đăng ký access key để xem/đổi hộp thư nhận báo giá, hoặc tạo access key
+   mới cho domain production rồi cập nhật lại `data/site.json`.
+2. Kiểm tra lại thông tin liên hệ (hotline `0907 811 767`, địa chỉ) khớp với thông tin thật của công ty.
 
 ## Đẩy code lên GitHub
 

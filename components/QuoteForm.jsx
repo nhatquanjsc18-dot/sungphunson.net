@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import site from "@/data/site.json";
 
 export default function QuoteForm({ productName }) {
   const [status, setStatus] = useState("idle");
+  const [errorMsg, setErrorMsg] = useState("");
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -12,15 +14,17 @@ export default function QuoteForm({ productName }) {
     const data = new FormData(form);
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/info@nhatquan.vn", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { Accept: "application/json" },
         body: data,
       });
-      if (!res.ok) throw new Error("failed");
+      const json = await res.json();
+      if (!res.ok || !json.success) throw new Error(json.message || "failed");
       setStatus("success");
       form.reset();
-    } catch {
+    } catch (err) {
+      setErrorMsg(err.message || "");
       setStatus("error");
     }
   }
@@ -40,15 +44,16 @@ export default function QuoteForm({ productName }) {
   return (
     <form onSubmit={handleSubmit} className="bg-ink text-paper rounded-2xl p-6 space-y-4">
       <h3 className="font-display text-lg text-yellow">Yêu cầu báo giá</h3>
-      {productName && <input type="hidden" name="Sản phẩm" value={productName} />}
-      <input type="hidden" name="_subject" value={`Yêu cầu báo giá${productName ? ": " + productName : ""}`} />
-      <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+      <input type="hidden" name="access_key" value={site.web3formsAccessKey} />
+      <input type="hidden" name="subject" value={`Yêu cầu báo giá${productName ? ": " + productName : ""} — sungphunson.net`} />
+      {productName && <input type="hidden" name="Sản phẩm quan tâm" value={productName} />}
+      <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" />
 
       <div>
         <label className="text-xs text-paper/60 uppercase tracking-wide">Họ tên *</label>
         <input
           required
-          name="Họ tên"
+          name="name"
           type="text"
           className="mt-1 w-full bg-ink-soft border border-line rounded-lg px-3.5 py-2.5 text-sm outline-none focus:border-yellow"
           placeholder="Nguyễn Văn A"
@@ -58,7 +63,7 @@ export default function QuoteForm({ productName }) {
         <label className="text-xs text-paper/60 uppercase tracking-wide">Số điện thoại *</label>
         <input
           required
-          name="Số điện thoại"
+          name="phone"
           type="tel"
           className="mt-1 w-full bg-ink-soft border border-line rounded-lg px-3.5 py-2.5 text-sm outline-none focus:border-yellow"
           placeholder="09xxxxxxxx"
@@ -67,7 +72,7 @@ export default function QuoteForm({ productName }) {
       <div>
         <label className="text-xs text-paper/60 uppercase tracking-wide">Ghi chú</label>
         <textarea
-          name="Ghi chú"
+          name="message"
           rows={3}
           className="mt-1 w-full bg-ink-soft border border-line rounded-lg px-3.5 py-2.5 text-sm outline-none focus:border-yellow resize-none"
           placeholder="Số lượng, nhu cầu sử dụng..."
@@ -83,7 +88,8 @@ export default function QuoteForm({ productName }) {
       </button>
       {status === "error" && (
         <p className="text-sm text-red-400">
-          Gửi thất bại, vui lòng gọi trực tiếp <a href="tel:0907811767" className="underline">0907 811 767</a>.
+          Gửi thất bại{errorMsg ? `: ${errorMsg}` : ""}, vui lòng gọi trực tiếp{" "}
+          <a href="tel:0907811767" className="underline">0907 811 767</a>.
         </p>
       )}
     </form>
