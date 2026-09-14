@@ -190,11 +190,33 @@ export const products = [
     name: "DeVilbiss JGX-502",
     image: "/products/devilbiss/jgx-502.png",
     feedType: "Gravity/Suction",
-    weight: "430g (gravity) / 440g (suction)",
+    weight: "430g (Gravity) / 440g (Suction)",
     shortDesc: "Nhẹ nhưng hiệu suất tán sương vượt trội, xử lý tốt sơn metallic & Pearl Mica.",
     description:
-      "DeVilbiss JGX-502 là phiên bản nâng cấp của JGX-501, phát triển riêng cho thị trường Nhật Bản dựa trên công nghệ phun sơn DeVilbiss. Súng nhẹ (430g gravity / 440g suction) nhưng đạt hiệu suất phun tán sương vượt trội, xử lý tốt cả sơn metallic và Pearl Mica.",
-    highlights: ["Trọng lượng 430–440g", "Xử lý tốt sơn metallic & Pearl Mica", "Công nghệ phát triển cho thị trường Nhật"],
+      "Súng phun sơn DeVilbiss JGX-502 là giải pháp hoàn hảo cho ngành sơn sửa ô tô và hoàn thiện công nghiệp. Được phát triển dựa trên sự hợp tác giữa Nhật Bản và DeVilbiss Hoa Kỳ, JGX-502 mang đến khả năng nguyên tử hoá vượt trội trong thiết kế cực kỳ nhỏ gọn — công nghệ Ball & Cone độc quyền đảm bảo tia phun đồng nhất, đường dẫn sơn thép không gỉ và béc phun chống rò rỉ UHMW.",
+    highlights: [
+      "Trọng lượng 430g (Gravity) / 440g (Suction)",
+      "Công nghệ Ball & Cone độc quyền",
+      "Đầu khí vào 1/4PF (BSP), air cap No. 103/143/165",
+      "Ứng dụng: sơn ô tô, sơn gỗ, bề mặt kim loại",
+    ],
+  },
+  {
+    slug: "devilbiss-gfg-pro",
+    brand: "devilbiss",
+    category: "cong-nghiep",
+    name: "DeVilbiss GFG Pro",
+    image: "/products/devilbiss/gfg-pro.png",
+    feedType: "Gravity feed · Trọng lực thông thường",
+    shortDesc: "Súng phun sơn trọng lực thông thường được ưa chuộng nhất thế giới, phiên bản Pro cải tiến.",
+    description:
+      "Súng phun sơn thông thường DeVilbiss GFG đã khẳng định vị thế là lựa chọn hàng đầu của thợ sơn trên toàn thế giới trong nhiều năm qua. Phiên bản GFG Pro được thiết kế lại hoàn toàn với thân súng, nắp khí, đầu súng, cò súng và van khí mới, mang đến hiệu suất hoàn thiện vượt trội, chất lượng phun sương nổi tiếng của DeVilbiss và tỷ lệ ứng dụng nhanh.",
+    highlights: [
+      "Thân súng nhôm rèn, tuổi thọ cao",
+      "Cò súng nhẹ nhàng, giảm mệt mỏi khi vận hành",
+      "Van khí cân bằng cải thiện luồng khí",
+      "Thiết kế lại hoàn toàn thế hệ Pro",
+    ],
   },
   {
     slug: "devilbiss-prolite-s-touchup",
@@ -227,12 +249,26 @@ export const products = [
     category: "oto",
     name: "DeVilbiss JCK",
     image: "/products/devilbiss/jck-manual.png",
-    feedType: "Đa dụng",
+    feedType: "Gravity / Suction / Pressure",
     weight: "290g",
-    shortDesc: "Súng đa dụng gọn nhẹ 290g, công nghệ tán sương DeVilbiss đã kiểm chứng.",
+    shortDesc: "Súng đa dụng gọn nhẹ 290g, công nghệ tán sương DeVilbiss đã kiểm chứng, nhiều tuỳ chọn cấp sơn.",
     description:
-      "DeVilbiss JCK là súng phun sơn đa dụng kích thước gọn nhẹ, trọng lượng chỉ 290g, ứng dụng công nghệ tán sương DeVilbiss đã được kiểm chứng, phù hợp cho công việc phun phủ tổng quát tại garage sơn ô tô.",
-    highlights: ["Trọng lượng chỉ 290g", "Công nghệ tán sương đã kiểm chứng", "Phun phủ tổng quát"],
+      "DeVilbiss JCK là súng phun sơn đa dụng kích thước gọn nhẹ, trọng lượng chỉ 290g ở mọi cấu hình, ứng dụng công nghệ atomization DeVilbiss đã được kiểm chứng qua nhiều năm sử dụng. Có đủ 3 kiểu cấp sơn Gravity, Suction, Pressure với nhiều tuỳ chọn nắp khí và đường kính kim phun, đường dẫn sơn lớn cho phép phun sơn độ nhớt cao và sơn gốc nước. Phù hợp cho sơn gỗ, sơn kim loại, sơn xe máy — ô tô và các dây chuyền sơn công nghiệp cần độ chính xác cao.",
+    highlights: [
+      "Trọng lượng chỉ 290g ở mọi phiên bản",
+      "3 kiểu cấp sơn: Gravity, Suction, Pressure",
+      "Đường dẫn sơn lớn, phun được sơn độ nhớt cao & sơn gốc nước",
+      "Công nghệ tán sương DeVilbiss đã kiểm chứng",
+    ],
+    specTable: {
+      headers: ["Kiểu cấp sơn", "Mã nắp khí", "Kim phun (mm)", "Áp suất khí vào (MPa)", "Trọng lượng (g)"],
+      rows: [
+        ["Gravity", "SS1 / JCK-3-SS1", "0.8", "0.1", "290"],
+        ["Gravity", "SS3 / JCK-3-SS3", "1.3 / 1.5 / 1.8", "0.24", "290"],
+        ["Suction", "SS3 / JCK-3-SS3", "1.3 / 1.5 / 1.8", "0.24", "290"],
+        ["Pressure", "CN1 / JCK-3-CN1", "0.8 / 1.0 / 1.3 / 1.5", "0.24", "290"],
+      ],
+    },
   },
   {
     slug: "devilbiss-neptune-gravity",
@@ -445,55 +481,26 @@ export const products = [
     highlights: ["Đo độ ẩm vật liệu gỗ", "Kiểm tra trước thi công"],
   },
 
-  // ===== BINKS =====
-  {
-    slug: "binks-jgx-502",
-    brand: "binks",
-    category: "oto",
-    name: "Binks JGX-502",
-    image: "/products/binks/jgx-502.jpg",
-    feedType: "Gravity/Suction",
-    shortDesc: "Súng phun sơn công nghệ DeVilbiss, nhẹ, xử lý tốt sơn metallic & Pearl Mica.",
-    description:
-      "Binks JGX-502 phân phối bởi Nhất Quán, ứng dụng công nghệ phun sơn DeVilbiss, phát triển riêng cho thị trường Nhật Bản. Súng nhẹ nhưng đạt hiệu suất tán sương vượt trội, phù hợp cho garage sơn ô tô chuyên nghiệp.",
-    highlights: ["Công nghệ DeVilbiss", "Xử lý tốt sơn metallic & Pearl Mica", "Trọng lượng nhẹ"],
-  },
-  {
-    slug: "binks-jck",
-    brand: "binks",
-    category: "oto",
-    name: "Binks JCK",
-    image: "/products/binks/jck.jpg",
-    feedType: "Đa dụng",
-    weight: "290g",
-    shortDesc: "Súng đa dụng gọn nhẹ, công nghệ tán sương đã được kiểm chứng.",
-    description:
-      "Binks JCK là súng phun sơn đa dụng kích thước gọn nhẹ, ứng dụng công nghệ tán sương đã được kiểm chứng, phù hợp cho công việc phun phủ tổng quát tại garage sơn ô tô.",
-    highlights: ["Trọng lượng nhẹ 290g", "Công nghệ tán sương đã kiểm chứng", "Phun phủ tổng quát"],
-  },
+  // ===== BINKS ===== (FinishLine FLG-4 là hàng chính hãng thương hiệu Binks;
+  // JCK, JGX-502 và GFG Pro dùng chung ảnh/thông số với hàng DeVilbiss thật (thấy rõ
+  // chữ "DEVILBISS" trên ảnh sản phẩm) nên đã gộp về đúng nhóm DeVilbiss bên trên,
+  // tránh hiển thị trùng lặp/sai nhãn hàng)
   {
     slug: "binks-finishline-flg-4",
     brand: "binks",
     category: "go-noi-that",
     name: "Binks FinishLine FLG-4",
     image: "/products/binks/flg-4.png",
-    feedType: "Gravity feed",
-    shortDesc: "Súng phun sơn gravity feed dòng FinishLine, phổ biến cho sơn gỗ nội thất.",
+    feedType: "Gravity / Siphon · HVLP",
+    shortDesc: "Súng phun đa năng dòng FinishLine, tương thích sơn gốc nước, hoàn thiện như tại nhà máy.",
     description:
-      "Binks FinishLine FLG-4 là súng phun sơn gravity feed thuộc dòng FinishLine, thiết kế thực dụng, dễ điều chỉnh, phù hợp cho ngành sơn gỗ nội thất và các ứng dụng công nghiệp nhẹ.",
-    highlights: ["Dòng FinishLine", "Dễ điều chỉnh", "Phù hợp sơn gỗ nội thất"],
-  },
-  {
-    slug: "binks-gfg-pro",
-    brand: "binks",
-    category: "cong-nghiep",
-    name: "Binks GFG Pro",
-    image: "/products/binks/gfg-pro.png",
-    feedType: "Bán tự động",
-    shortDesc: "Súng phun bán tự động Binks GFG Pro cho ứng dụng công nghiệp.",
-    description:
-      "Binks GFG Pro là súng phun sơn bán tự động, phù hợp tích hợp vào các trạm phun sơn công nghiệp cần độ ổn định và lặp lại cao.",
-    highlights: ["Bán tự động", "Ổn định, lặp lại cao", "Phù hợp trạm phun công nghiệp"],
+      "Binks FinishLine FLG-4 là súng phun đa năng, hoạt động với nhiều lớp phủ khác nhau để mang lại lớp hoàn thiện chuyên nghiệp, tinh xảo như tại nhà máy. Toàn bộ bộ phận làm bằng nhôm anodized và thép không gỉ, tương thích môi trường sơn gốc nước. Model Siphon trang bị hệ thống cốc dùng một lần DeKups. Có sẵn model thông thường hoặc HVLP.",
+    highlights: [
+      "Thương hiệu Binks chính hãng — dòng FinishLine",
+      "Tương thích sơn gốc nước",
+      "Thân nhôm anodized, bền bỉ",
+      "Model Gravity & Siphon dùng cốc DeKups một lần",
+    ],
   },
 ];
 

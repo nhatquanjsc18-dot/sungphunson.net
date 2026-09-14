@@ -29,6 +29,7 @@ export default function Footer() {
           <h3 className="text-paper font-semibold text-sm uppercase tracking-wide mb-4">Công ty</h3>
           <ul className="space-y-2.5 text-sm">
             <li><Link href="/gioi-thieu" className="hover:text-yellow">Giới thiệu</Link></li>
+            <li><Link href="/bai-viet" className="hover:text-yellow">Bài viết</Link></li>
             <li><Link href="/lien-he" className="hover:text-yellow">Liên hệ</Link></li>
             <li><a href="https://nhatquan.vn" target="_blank" rel="noopener noreferrer" className="hover:text-yellow">Website chính nhatquan.vn</a></li>
           </ul>

@@ -99,6 +99,34 @@ export default async function ProductDetailPage({ params }) {
         <Reveal className="prose-content">
           <h2 className="font-display text-2xl mb-4">Mô tả chi tiết</h2>
           <p className="text-ink/70 leading-relaxed">{product.description}</p>
+
+          {product.specTable && (
+            <div className="mt-8 overflow-x-auto">
+              <h3 className="font-display text-lg mb-3">Bảng thông số kỹ thuật</h3>
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="bg-ink text-paper">
+                    {product.specTable.headers.map((h) => (
+                      <th key={h} className="text-left font-medium px-3 py-2.5 whitespace-nowrap">
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {product.specTable.rows.map((row, i) => (
+                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#f4f1e8]"}>
+                      {row.map((cell, j) => (
+                        <td key={j} className="px-3 py-2.5 border-b border-black/5 whitespace-nowrap">
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </Reveal>
         <Reveal delay={0.1}>
           <QuoteForm productName={product.name} />
