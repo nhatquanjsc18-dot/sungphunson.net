@@ -127,6 +127,153 @@ export const articles = [
       { type: "p", text: "Giá niêm yết có thể thay đổi theo thời điểm và số lượng đặt hàng. Để nhận báo giá chính xác, ưu đãi combo phụ kiện và tư vấn model phù hợp ngân sách, vui lòng gọi hotline 0907 811 767 hoặc gửi yêu cầu báo giá tại trang sản phẩm bạn quan tâm." },
     ],
   },
+  {
+    slug: "sung-phun-son-hvlp-la-gi",
+    title: "Súng phun sơn HVLP là gì? Vì sao được ưa chuộng nhất hiện nay",
+    excerpt:
+      "Giải thích công nghệ HVLP (High Volume Low Pressure) trong súng phun sơn, so sánh với LVLP và súng conventional, ưu nhược điểm và ứng dụng phù hợp.",
+    date: "2026-03-02",
+    keywords: ["súng phun sơn hvlp là gì", "hvlp là gì", "súng hvlp"],
+    relatedProducts: ["anest-iwata-ls-400-series2-base", "anest-iwata-katana-plus", "devilbiss-gti-pro-lite"],
+    blocks: [
+      { type: "p", text: "HVLP là viết tắt của High Volume Low Pressure — súng phun sử dụng lượng khí lớn ở áp suất thấp (thường dưới 10 psi tại đầu vòi phun) để tán sương sơn. Đây hiện là công nghệ phổ biến nhất trong súng phun sơn ô tô và đồ gỗ nhờ hiệu suất chuyển sơn cao và lượng sơn bay hơi thấp." },
+      { type: "h2", text: "Nguyên lý hoạt động của súng HVLP" },
+      { type: "p", text: "Thay vì dùng áp suất khí cao để đẩy sơn ra (như súng conventional truyền thống), súng HVLP dùng lượng khí lớn ở áp suất thấp để bao bọc và tán các hạt sơn thành sương mịn. Cách này giúp phần lớn lượng sơn phun ra bám lên bề mặt cần sơn thay vì bay ngược trở lại (overspray) — hiệu suất chuyển sơn (transfer efficiency) của súng HVLP có thể đạt 65–85%, cao hơn nhiều so với súng conventional (chỉ khoảng 30–40%)." },
+      { type: "h2", text: "So sánh HVLP, LVLP và Conventional" },
+      {
+        type: "ul",
+        items: [
+          "HVLP (High Volume Low Pressure): áp suất thấp, lượng khí lớn, hiệu suất chuyển sơn cao, tiêu chuẩn ngành sơn ô tô hiện nay, đáp ứng quy định VOC ở nhiều nước.",
+          "LVLP (Low Volume Low Pressure): biến thể tiết kiệm khí nén hơn HVLP, phù hợp máy nén khí công suất nhỏ, thường dùng cho xưởng nhỏ hoặc DIY.",
+          "Conventional (áp suất cao truyền thống): tán sương rất mịn, tốc độ phun nhanh, nhưng hiệu suất chuyển sơn thấp, hao phí vật liệu nhiều, ít dùng cho sơn ô tô hiện đại.",
+        ],
+      },
+      { type: "h2", text: "Khi nào nên chọn súng HVLP" },
+      { type: "p", text: "Súng HVLP phù hợp hầu hết nhu cầu sơn ô tô, sơn đồ gỗ nội thất và sơn công nghiệp nhẹ — đặc biệt khi cần tiết kiệm vật liệu sơn, giảm ô nhiễm môi trường xưởng và tuân thủ quy định khí thải VOC. Các dòng như Anest Iwata LS-400/WS-400 Series, Katana Plus hay DeVilbiss GTi Pro Lite đều là súng HVLP tiêu chuẩn ngành hiện nay." },
+      { type: "p", text: "Cần tư vấn chọn súng HVLP phù hợp máy nén khí và loại sơn đang dùng? Liên hệ hotline 0907 811 767 để được hỗ trợ miễn phí." },
+    ],
+  },
+  {
+    slug: "sung-phun-son-go-noi-that-chon-loai-nao",
+    title: "Súng phun sơn gỗ nội thất: Nên chọn loại nào cho xưởng?",
+    excerpt:
+      "Hướng dẫn chọn súng phun sơn gỗ theo quy mô xưởng: từ súng cầm tay vệt phun hẹp cho chi tiết nhỏ đến súng vệt phun rộng cho bề mặt lớn như cửa, vách ốp, tủ bếp.",
+    date: "2026-03-10",
+    keywords: ["súng phun sơn gỗ", "súng phun sơn nội thất", "súng phun sơn gỗ nội thất"],
+    relatedProducts: ["anest-iwata-wider2l", "devilbiss-flg", "binks-finishline-flg-4"],
+    blocks: [
+      { type: "p", text: "Ngành sơn gỗ nội thất — từ xưởng mộc gia đình đến nhà máy sản xuất tủ bếp, cửa gỗ công nghiệp — có yêu cầu khác biệt so với sơn ô tô: diện tích bề mặt phun thường lớn hơn nhiều, vật liệu sơn PU/NC có độ nhớt và đặc tính khác, và ưu tiên tốc độ phủ sơn để tối ưu năng suất." },
+      { type: "h2", text: "Súng vệt phun hẹp cho chi tiết nhỏ" },
+      { type: "p", text: "Với các chi tiết nội thất nhỏ, khung tranh, đồ thủ công mỹ nghệ, nên chọn súng thân nhỏ gọn, vệt phun hẹp như DeVilbiss FLG hoặc Binks FinishLine FLG-4 — dễ điều khiển chính xác trên bề mặt hẹp, giảm hao phí sơn ở các góc cạnh." },
+      { type: "h2", text: "Súng vệt phun rộng cho bề mặt lớn" },
+      { type: "p", text: "Khi cần phủ sơn nhanh trên diện tích lớn như cửa gỗ, vách ốp, tấm gỗ công nghiệp khổ lớn, súng vệt phun rộng như Anest Iwata WIDER2L là lựa chọn tối ưu — thân súng cỡ đầy đủ, công nghệ Split Nozzle™ đảm bảo bề mặt mịn đều dù phun nhanh trên diện tích rộng." },
+      { type: "h2", text: "Lưu ý khi chọn súng phun sơn gỗ" },
+      {
+        type: "ul",
+        items: [
+          "Chọn cỡ béc phun phù hợp độ nhớt sơn PU/NC — thường lớn hơn béc sơn ô tô (1.3–2.0mm).",
+          "Ưu tiên súng có đường dẫn chất lỏng thép không gỉ nếu dùng sơn gốc nước, tránh ăn mòn.",
+          "Với xưởng sản xuất quy mô lớn, cân nhắc súng phun tự động lắp trên dây chuyền thay vì súng cầm tay.",
+        ],
+      },
+      { type: "p", text: "Súng Phun Sơn .NET phân phối đầy đủ các dòng súng phun sơn gỗ chính hãng DeVilbiss, Binks và Anest Iwata — liên hệ hotline 0907 811 767 để được tư vấn theo quy mô xưởng cụ thể." },
+    ],
+  },
+  {
+    slug: "sung-phun-son-tinh-dien-la-gi",
+    title: "Súng phun sơn tĩnh điện là gì? Ứng dụng trong sản xuất công nghiệp",
+    excerpt:
+      "Tìm hiểu nguyên lý súng phun sơn tĩnh điện (electrostatic), ưu điểm về hiệu suất chuyển sơn và tiết kiệm vật liệu so với súng phun thông thường, cùng các dòng sản phẩm Wagner phổ biến.",
+    date: "2026-03-18",
+    keywords: ["súng phun sơn tĩnh điện", "súng phun sơn tĩnh điện là gì", "sơn tĩnh điện"],
+    relatedProducts: ["wagner-pem-x1", "wagner-gm5000", "devilbiss-agx"],
+    blocks: [
+      { type: "p", text: "Súng phun sơn tĩnh điện (electrostatic spray gun) là thiết bị phun sơn/bột sử dụng điện tích để tích điện cho các hạt sơn khi ra khỏi béc phun. Các hạt sơn tích điện sẽ bị hút về phía bề mặt vật cần sơn (được nối đất), giúp sơn bám đều quanh cả các mặt khuất, góc cạnh mà súng phun thông thường khó tiếp cận." },
+      { type: "h2", text: "Nguyên lý hoạt động" },
+      { type: "p", text: "Khi sơn (dạng lỏng hoặc bột) đi qua điện cực trong súng, các hạt sơn được tích điện âm (hoặc dương tuỳ hệ thống). Vật cần sơn được nối đất tạo điện tích trái dấu, khiến các hạt sơn bị hút về phía bề mặt theo hiệu ứng tĩnh điện thay vì chỉ bay theo quán tính như phun thông thường — kết quả là lớp phủ đều hơn, kể cả ở các cạnh và mặt sau khó tiếp cận trực tiếp." },
+      { type: "h2", text: "Ưu điểm của sơn tĩnh điện" },
+      {
+        type: "ul",
+        items: [
+          "Hiệu suất chuyển sơn cao hơn đáng kể (một số dòng như DeVilbiss AGX đạt transfer efficiency trên 90%), giảm hao phí vật liệu.",
+          "Lớp phủ đều hơn quanh các cạnh, góc và bề mặt khuất nhờ hiệu ứng bọc điện tích (wrap-around effect).",
+          "Giảm lượng sơn/bột thất thoát ra môi trường, thân thiện hơn với điều kiện làm việc trong nhà máy.",
+          "Phù hợp tự động hoá dây chuyền sơn quy mô lớn, ổn định và lặp lại chính xác giữa các lượt sơn.",
+        ],
+      },
+      { type: "h2", text: "Ứng dụng phổ biến" },
+      { type: "p", text: "Súng phun sơn tĩnh điện được dùng rộng rãi trong sơn khung xe, phụ tùng ô tô — xe máy, sơn tĩnh điện bột cho đồ nội thất kim loại, khung nhôm, thiết bị gia dụng và các sản phẩm kim loại sản xuất hàng loạt. Các dòng Wagner PEM/PEA/GM Series là lựa chọn phổ biến cho ứng dụng sơn tĩnh điện bột tại Việt Nam." },
+      { type: "p", text: "Đầu tư hệ thống sơn tĩnh điện cần tư vấn kỹ theo quy mô sản xuất và loại vật liệu. Gọi hotline 0907 811 767 để được đội ngũ kỹ thuật khảo sát và đề xuất giải pháp phù hợp." },
+    ],
+  },
+  {
+    slug: "cach-ve-sinh-bao-duong-sung-phun-son",
+    title: "Cách vệ sinh và bảo dưỡng súng phun sơn đúng cách",
+    excerpt:
+      "Hướng dẫn từng bước vệ sinh súng phun sơn sau khi dùng, các lỗi thường gặp do vệ sinh sai cách và lịch bảo dưỡng định kỳ giúp kéo dài tuổi thọ thiết bị.",
+    date: "2026-03-25",
+    keywords: ["vệ sinh súng phun sơn", "bảo dưỡng súng phun sơn", "cách vệ sinh súng phun sơn"],
+    relatedProducts: ["devilbiss-gti-pro-lite", "devilbiss-jck", "anest-iwata-lph-80"],
+    blocks: [
+      { type: "p", text: "Vệ sinh súng phun sơn ngay sau mỗi lần sử dụng là bước bắt buộc để đảm bảo độ bền và chất lượng tia phun ổn định. Sơn khô đọng lại trong kim phun, béc phun hoặc van khí là nguyên nhân hàng đầu khiến súng phun lệch tia, nghẹt béc hoặc giảm tuổi thọ nhanh chóng." },
+      { type: "h2", text: "Các bước vệ sinh cơ bản sau khi dùng" },
+      {
+        type: "ul",
+        items: [
+          "Đổ hết sơn thừa trong cup/bình chứa trở lại thùng sơn, không để sơn khô đọng trong bình.",
+          "Đổ dung môi vệ sinh chuyên dụng (phù hợp loại sơn dung môi hoặc gốc nước) vào bình, bóp cò để dung môi rửa trôi sơn còn sót trong đường dẫn.",
+          "Tháo béc phun, kim phun và nắp khí, ngâm và rửa riêng bằng dung môi hoặc bàn chải chuyên dụng — tránh dùng vật cứng/sắc nhọn cạy sơn khô vì dễ làm trầy xước, biến dạng lỗ phun.",
+          "Lau khô toàn bộ các chi tiết trước khi lắp lại, tránh để ẩm gây gỉ sét các bộ phận kim loại.",
+          "Tra dầu bôi trơn (loại chuyên dụng cho súng phun sơn) vào các khớp chuyển động của cò súng và van khí định kỳ.",
+        ],
+      },
+      { type: "h2", text: "Những lỗi thường gặp do vệ sinh sai cách" },
+      {
+        type: "ul",
+        items: [
+          "Tia phun lệch, không đều: thường do béc phun hoặc lỗ thoát khí ở nắp khí bị nghẹt sơn khô, cần tháo rửa kỹ từng lỗ nhỏ.",
+          "Rò rỉ sơn ở kim phun: gioăng/phớt kim phun mòn hoặc bị sơn khô bám dính lâu ngày làm mất độ kín khít.",
+          "Cò súng bị cứng, khó bóp: thiếu bôi trơn định kỳ hoặc sơn khô dính vào trục cò súng.",
+        ],
+      },
+      { type: "h2", text: "Lịch bảo dưỡng định kỳ khuyến nghị" },
+      { type: "p", text: "Ngoài vệ sinh sau mỗi lần dùng, nên kiểm tra tổng thể súng phun sơn (gioăng, phớt, kim/béc phun) mỗi 1–3 tháng tuỳ tần suất sử dụng, và thay thế bộ phụ kiện hao mòn (kim, béc, gioăng) theo khuyến nghị của nhà sản xuất để đảm bảo chất lượng phun luôn ổn định." },
+      { type: "p", text: "Súng Phun Sơn .NET cung cấp đầy đủ phụ tùng thay thế chính hãng và dịch vụ bảo trì tận nơi. Liên hệ hotline 0907 811 767 khi súng phun sơn của bạn cần kiểm tra hoặc thay phụ kiện." },
+    ],
+  },
+  {
+    slug: "top-10-sung-phun-son-anest-iwata-dang-chu-y",
+    title: "Top 10 súng phun sơn Anest Iwata đáng chú ý nhất",
+    excerpt:
+      "Điểm qua 10 model súng phun sơn Anest Iwata phổ biến — từ dòng chuyên sơn ô tô Supernova, LPH cho đến dòng chuyên sơn gỗ WIDER — giúp bạn chọn nhanh model phù hợp.",
+    date: "2026-04-02",
+    keywords: ["súng phun sơn anest iwata", "súng anest iwata", "top súng phun sơn anest iwata"],
+    relatedProducts: [
+      "anest-iwata-ws-400-supernova-evotech",
+      "anest-iwata-ls-400-series2-base",
+      "anest-iwata-kiwami",
+    ],
+    blocks: [
+      { type: "p", text: "Anest Iwata là một trong những thương hiệu súng phun sơn hàng đầu Nhật Bản, nổi tiếng với công nghệ Split Nozzle™ giúp tán sương đều và tiết kiệm vật liệu. Dưới đây là 10 model súng phun sơn Anest Iwata đáng chú ý, được Súng Phun Sơn .NET phân phối chính hãng tại Việt Nam." },
+      {
+        type: "ul",
+        items: [
+          "LS-400 Series 2 Base — súng sơn nền HVLP cao cấp, ổn định trong nhiều điều kiện khí hậu.",
+          "WS-400 Series 2 Base — đạt chuẩn khí thải EPA, tối ưu cho sơn nền gốc nước.",
+          "WS-400 Series 2 Clear — chuyên sơn bóng clearcoat, tán sương mịn tốc độ cao.",
+          "LS-400 Supernova Entech — dòng cao cấp, tán sương tập trung cho sơn nền.",
+          "WS-400 Supernova Evotech — tiêu chuẩn ngành cho lớp bóng hoàn thiện, xưởng tần suất cao.",
+          "LPH-400-LV — cân bằng, dễ làm quen, phù hợp cả thợ mới và thợ lâu năm.",
+          "LPH-80 — nhỏ gọn, chuyên sửa lỗi điểm (touch-up), tiêu hao vật liệu cực thấp.",
+          "WIDER2L — vệt phun rộng, chuyên sơn gỗ nội thất khổ lớn.",
+          "Katana Plus — súng nhập môn, phun được nhiều loại sơn, dễ tiếp cận cho người mới.",
+          "Kiwami — hệ đầu chia gió mã màu riêng cho từng công đoạn sơn ô tô.",
+        ],
+      },
+      { type: "h2", text: "Nên bắt đầu từ model nào?" },
+      { type: "p", text: "Nếu mới bắt đầu hoặc dùng cho công việc tổng quát, Katana Plus là lựa chọn dễ tiếp cận nhất. Garage sơn ô tô chuyên nghiệp nên đầu tư theo cặp Base/Clear như LS-400 hoặc WS-400 Series. Xưởng gỗ nội thất phù hợp nhất với WIDER2L. Xem đầy đủ thông số từng model tại trang sản phẩm hoặc liên hệ hotline 0907 811 767 để được tư vấn chọn đúng model theo nhu cầu thực tế." },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug) {

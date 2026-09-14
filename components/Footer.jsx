@@ -20,7 +20,7 @@ export default function Footer() {
             <li><Link href="/san-pham?brand=devilbiss" className="hover:text-yellow">Súng phun sơn DeVilbiss</Link></li>
             <li><Link href="/san-pham?brand=wagner" className="hover:text-yellow">Súng phun sơn Wagner</Link></li>
             <li><Link href="/san-pham?brand=binks" className="hover:text-yellow">Súng phun sơn Binks</Link></li>
-            <li><Link href="/san-pham?brand=anest-iwata" className="hover:text-yellow">Anest Iwata</Link></li>
+            <li><Link href="/san-pham?brand=anest-iwata" className="hover:text-yellow">Súng phun sơn Anest Iwata</Link></li>
             <li><Link href="/san-pham?category=tinh-dien" className="hover:text-yellow">Sơn tĩnh điện</Link></li>
           </ul>
         </div>

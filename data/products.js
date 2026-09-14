@@ -502,6 +502,162 @@ export const products = [
       "Model Gravity & Siphon dùng cốc DeKups một lần",
     ],
   },
+
+  // ===== ANEST IWATA ===== (biên soạn lại từ catalogue anestiwata.nhatquan.vn)
+  {
+    slug: "anest-iwata-ls-400-series2-base",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata LS-400 Series 2 Base",
+    image: "/products/anest-iwata/ls-400-series2-base.jpg",
+    feedType: "HVLP · Gravity feed",
+    shortDesc: "Súng phun HVLP cao cấp cho lớp sơn màu nền, công nghệ Split Nozzle™ 2.0 ổn định mọi điều kiện.",
+    description:
+      "LS-400 Series 2 Base là súng phun HVLP cao cấp của Anest Iwata, cho khả năng tán sương đồng đều nhờ công nghệ đầu vòi kép Split Nozzle™ 2.0, phù hợp sơn màu nền gốc dung môi lẫn gốc nước. Súng hoạt động ổn định trong nhiều điều kiện khí hậu và môi trường xưởng khác nhau, kèm nhiều tuỳ chọn cỡ vòi phun để tối ưu theo loại sơn.",
+    highlights: [
+      "Súng HVLP, áp suất khí vận hành thấp",
+      "Công nghệ đầu vòi kép Split Nozzle™ 2.0",
+      "Phù hợp sơn nền gốc dung môi và gốc nước",
+      "Tương thích bộ điều áp số DPG-1 tuỳ chọn",
+    ],
+  },
+  {
+    slug: "anest-iwata-ws-400-series2-base",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata WS-400 Series 2 Base",
+    image: "/products/anest-iwata/ws-400-series2-base.jpg",
+    feedType: "HVLP · Đạt chuẩn EPA",
+    shortDesc: "Súng phun đạt chuẩn khí thải EPA, tối ưu cho công nghệ sơn nền gốc nước thế hệ mới.",
+    description:
+      "WS-400 Series 2 Base đạt chuẩn khí thải EPA NESHAP, được tối ưu riêng cho công nghệ sơn nền gốc nước thế hệ mới — công nghệ Split Nozzle™ giúp tán sương đều và tiết kiệm vật liệu, phù hợp garage sơn ô tô cần tuân thủ tiêu chuẩn khí thải nghiêm ngặt.",
+    highlights: [
+      "Đạt chuẩn khí thải EPA NESHAP 40 CFR Part 63 Subpart 6H",
+      "Tối ưu cho sơn nền gốc nước thế hệ mới",
+      "Công nghệ Split Nozzle™",
+    ],
+  },
+  {
+    slug: "anest-iwata-ws-400-series2-clear",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata WS-400 Series 2 Clear",
+    image: "/products/anest-iwata/ws-400-series2-clear.jpg",
+    feedType: "HVLP · Clearcoat",
+    shortDesc: "Súng phun sơn bóng (clear coat) chuẩn mới, tán sương mịn tốc độ cao cho bề mặt như gương.",
+    description:
+      "WS-400 Series 2 Clear là súng phun sơn bóng thế hệ mới của Anest Iwata, tán sương mịn ở tốc độ cao, cho bề mặt hoàn thiện bóng sâu như gương. Đây là lựa chọn tiêu chuẩn cho công đoạn clearcoat trong quy trình sơn sửa ô tô chuyên nghiệp.",
+    highlights: ["Chuyên dụng cho clearcoat", "Tán sương mịn tốc độ cao", "Bề mặt hoàn thiện như gương"],
+  },
+  {
+    slug: "anest-iwata-ls-400-supernova-entech",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata LS-400 Supernova Entech",
+    image: "/products/anest-iwata/ls-400-supernova-entech.jpg",
+    feedType: "HVLP · Cao cấp",
+    shortDesc: "Súng HVLP cao cấp, tán sương tập trung, dành cho sơn nền gốc dung môi và gốc nước.",
+    description:
+      "LS-400 Supernova Entech là dòng súng HVLP cao cấp trong hệ Supernova của Anest Iwata, cho tia phun tán sương tập trung, dùng cho cả sơn nền gốc dung môi và gốc nước — phù hợp garage sơn ô tô chuyên nghiệp cần độ chính xác cao.",
+    highlights: ["Dòng Supernova cao cấp", "Tán sương tập trung", "Dùng cho sơn gốc dung môi & gốc nước"],
+  },
+  {
+    slug: "anest-iwata-ws-400-supernova-evotech",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata WS-400 Supernova Evotech",
+    image: "/products/anest-iwata/ws-400-supernova-evotech.jpg",
+    feedType: "HVLP · Clearcoat cao cấp",
+    shortDesc: "Súng phun sơn bóng cao cấp, tiêu chuẩn của thợ sơn ô tô chuyên nghiệp làm việc toàn thời gian.",
+    description:
+      "WS-400 Supernova Evotech là súng phun sơn bóng (clearcoat) cao cấp, dùng công nghệ Split Nozzle™ cho hiệu suất chuyển sơn và độ tán sương vượt trội — được xem là tiêu chuẩn ngành cho lớp bóng hoàn thiện, phù hợp xưởng sơn hoạt động tần suất cao mỗi ngày. Đạt chuẩn khí thải EPA NESHAP.",
+    highlights: [
+      "Đạt chuẩn khí thải EPA NESHAP",
+      "Công nghệ Split Nozzle™ đã kiểm chứng",
+      "Vệt phun hình tulip rộng, hiệu suất chuyển sơn vượt trội",
+    ],
+  },
+  {
+    slug: "anest-iwata-lph-400-lv",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata LPH-400-LV",
+    image: "/products/anest-iwata/lph-400-lv.jpg",
+    feedType: "HVLP",
+    shortDesc: "Súng HVLP tán sương mịn, lý tưởng cho sơn bóng và sơn một lớp, phù hợp cả người mới lẫn thợ lành nghề.",
+    description:
+      "LPH-400-LV cho khả năng tán sương mịn, rất phù hợp với sơn bóng (clearcoat) và sơn một lớp (single stage). Đây là lựa chọn cân bằng, dễ làm quen cho thợ sơn mới vào nghề nhưng vẫn đủ chính xác cho thợ sơn ô tô lâu năm — ít chi tiết hao mòn, bảo trì đơn giản.",
+    highlights: [
+      "Công nghệ Split Nozzle™ tiết kiệm vật liệu",
+      "Lý tưởng cho sơn bóng và sơn một lớp",
+      "Dễ làm quen, bảo trì đơn giản",
+    ],
+  },
+  {
+    slug: "anest-iwata-lph-80",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata LPH-80",
+    image: "/products/anest-iwata/lph-80.jpg",
+    feedType: "HVLP · Compact",
+    shortDesc: "Súng nhỏ gọn, tán sương cực mịn, chuyên dùng sửa lỗi điểm (touch-up) và bề mặt nhỏ.",
+    description:
+      "LPH-80 là súng phun nhỏ gọn đa năng, tiêu hao vật liệu thấp, tán sương cực mịn và tiêu thụ khí thấp — hoàn hảo cho công việc sửa lỗi điểm (touch-up) và các bề mặt diện tích nhỏ. Khuyến nghị cho sơn lót UV và sơn phủ ceramic.",
+    highlights: [
+      "Tiêu hao vật liệu cực thấp, tiết kiệm chi phí sửa điểm nhỏ",
+      "Tán sương cực mịn, tiêu thụ khí thấp",
+      "Khuyến nghị cho sơn lót UV và ceramic coating",
+    ],
+  },
+  {
+    slug: "anest-iwata-wider2l",
+    brand: "anest-iwata",
+    category: "go-noi-that",
+    name: "Anest Iwata WIDER2L",
+    image: "/products/anest-iwata/wider2l.jpg",
+    feedType: "HVLP · Vệt phun rộng",
+    shortDesc: "Súng phun sơn gỗ vệt phun rộng, chuyên trị bề mặt đồ gỗ nội thất khổ lớn.",
+    description:
+      "WIDER2L là lựa chọn phù hợp khi cần phủ sơn diện tích lớn, với thân súng cỡ đầy đủ và vệt phun rộng vượt trội — thiết bị quen thuộc trong môi trường công nghiệp và các dự án gỗ lớn. Công nghệ Split Nozzle™ đảm bảo bề mặt mịn màng mỗi lần phun, đường dẫn chất lỏng bằng thép không gỉ chống ăn mòn.",
+    highlights: [
+      "Vệt phun rộng, phù hợp bề mặt lớn",
+      "Thiết kế nhẹ, công thái học, dễ bảo trì",
+      "Đường dẫn chất lỏng thép không gỉ chống ăn mòn",
+    ],
+  },
+  {
+    slug: "anest-iwata-katana-plus",
+    brand: "anest-iwata",
+    category: "cong-nghiep",
+    name: "Anest Iwata Katana Plus",
+    image: "/products/anest-iwata/katana-plus.jpg",
+    feedType: "HVLP · Nhập môn",
+    shortDesc: "Súng HVLP dành cho người mới bắt đầu, phun được cả sơn gốc nước, dung môi và gốc dầu.",
+    description:
+      "Katana Plus là súng phun HVLP cấp độ nhập môn, phun được cả sơn gốc nước, gốc dung môi và gốc dầu — kèm hướng dẫn phun chi tiết, dễ theo dõi cùng phụ kiện đi kèm, giúp người dùng lần đầu tự tin bắt tay vào nhiều loại dự án khác nhau. Chỉ cần máy nén khí từ 1 HP trở lên.",
+    highlights: [
+      "Súng cấp độ nhập môn, dễ làm quen",
+      "Phun được sơn gốc nước, dung môi và gốc dầu",
+      "Chỉ cần máy nén khí từ 1 HP trở lên",
+    ],
+  },
+  {
+    slug: "anest-iwata-kiwami",
+    brand: "anest-iwata",
+    category: "oto",
+    name: "Anest Iwata Kiwami",
+    image: "/products/anest-iwata/kiwami.jpg",
+    feedType: "HVLP · Đầu chia gió mã màu",
+    shortDesc: "Súng phun sơn ô tô với hệ đầu chia gió mã màu riêng cho từng công đoạn sơn.",
+    description:
+      "Kiwami là dòng súng phun sơn ô tô của Anest Iwata với hệ đầu chia gió (air cap) được mã màu riêng cho từng công đoạn: đầu vàng KIWAMI-1-13B4 chuyên sơn nhũ bạc, đầu bạc KIWAMI-1-14B2 cho lớp phủ bóng ngoài cùng, đầu xanh KIWAMI-1-16B2 dành cho sơn lót với kim phun tôi cứng như súng áp lực. Có 8 model với cỡ béc 1,3–1,6mm.",
+    highlights: [
+      "Đầu chia gió vàng B4 — chuyên sơn nhũ bạc",
+      "Đầu chia gió bạc B2 — lớp phủ bóng dày, đều",
+      "Đầu chia gió xanh — chuyên sơn lót, kim phun tôi cứng",
+      "8 model, cỡ béc 1,3–1,6mm",
+    ],
+  },
 ];
 
 export function getProductsByBrand(brandSlug) {
