@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatContact from "@/components/FloatContact";
 
 const GA_MEASUREMENT_ID = "G-EWBN07Y8HG";
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <FloatContact />
       </body>
     </html>
   );
