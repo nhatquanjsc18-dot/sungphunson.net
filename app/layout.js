@@ -25,7 +25,7 @@ export const metadata = {
     template: "%s | Súng Phun Sơn .NET",
   },
   description:
-    "Nhà phân phối súng phun sơn DeVilbiss, Wagner, Binks, Anest Iwata tại Việt Nam. Tư vấn kỹ thuật miễn phí, báo giá nhanh trong ngày.",
+    "Nhà phân phối chính thức DeVilbiss, Binks; nhà phân phối chính hãng Anest Iwata; phân phối thương mại Wagner tại Việt Nam. Tư vấn kỹ thuật miễn phí, báo giá nhanh trong ngày.",
   keywords: ["súng phun sơn", "súng phun sơn chính hãng", "devilbiss", "wagner", "binks", "anest iwata"],
 };
 

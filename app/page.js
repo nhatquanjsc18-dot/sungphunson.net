@@ -35,7 +35,7 @@ export default function HomePage() {
               <span className="text-yellow">Chính Hãng</span>
             </h1>
             <p className="mt-6 text-paper/70 text-base sm:text-lg max-w-lg">
-              Nhà phân phối thiết bị phun sơn tại Việt Nam — hơn 10 năm đồng hành cùng garage ô tô,
+              Nhà phân phối chính thức DeVilbiss, Binks; nhà phân phối chính hãng Anest Iwata; phân phối thương mại Wagner tại Việt Nam — hơn 10 năm đồng hành cùng garage ô tô,
               nhà máy sản xuất và xưởng nội thất trên toàn quốc.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
