@@ -1,4 +1,4 @@
-// Dữ liệu sản phẩm được biên soạn lại từ hệ thống phân phối chính hãng của Nhất Quán
+// Dữ liệu sản phẩm được biên soạn lại từ hệ thống phân phối của Nhất Quán
 // (devilbiss.nhatquan.vn, mayphunsonwagner.com) — công ty mẹ vận hành sungphunson.net.
 
 export const products = [
@@ -367,7 +367,7 @@ export const products = [
     feedType: "Máy phun sơn",
     shortDesc: "Máy phun sơn Wagner EvoMotion cho ứng dụng công nghiệp và xây dựng.",
     description:
-      "Wagner EvoMotion là dòng máy phun sơn được phân phối chính hãng, phục vụ các ứng dụng phun sơn quy mô lớn trong công nghiệp sản xuất và xây dựng.",
+      "Wagner EvoMotion là dòng máy phun sơn được phân phối, phục vụ các ứng dụng phun sơn quy mô lớn trong công nghiệp sản xuất và xây dựng.",
     highlights: ["Máy phun sơn chính hãng Wagner", "Ứng dụng quy mô lớn"],
   },
   {

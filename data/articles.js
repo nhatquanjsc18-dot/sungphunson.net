@@ -92,7 +92,7 @@ export const articles = [
           "Ngân sách đầu tư theo từng công đoạn chuyên sâu → DeVilbiss DV1/TEKNA Series",
         ],
       },
-      { type: "p", text: "Cả hai thương hiệu đều được Nhất Quán phân phối chính hãng tại Việt Nam với đầy đủ CO, CQ và hỗ trợ kỹ thuật tận nơi. Liên hệ để được tư vấn chọn đúng model theo nhu cầu thực tế của xưởng." },
+      { type: "p", text: "Cả hai thương hiệu đều được Nhất Quán phân phối tại Việt Nam với đầy đủ CO, CQ và hỗ trợ kỹ thuật tận nơi. Liên hệ để được tư vấn chọn đúng model theo nhu cầu thực tế của xưởng." },
     ],
   },
   {
@@ -176,7 +176,7 @@ export const articles = [
           "Với xưởng sản xuất quy mô lớn, cân nhắc súng phun tự động lắp trên dây chuyền thay vì súng cầm tay.",
         ],
       },
-      { type: "p", text: "Súng Phun Sơn .NET phân phối đầy đủ các dòng súng phun sơn gỗ chính hãng DeVilbiss, Binks và Anest Iwata — liên hệ hotline 0907 811 767 để được tư vấn theo quy mô xưởng cụ thể." },
+      { type: "p", text: "Súng Phun Sơn .NET phân phối đầy đủ các dòng súng phun sơn gỗ DeVilbiss, Binks và Anest Iwata — liên hệ hotline 0907 811 767 để được tư vấn theo quy mô xưởng cụ thể." },
     ],
   },
   {
@@ -254,7 +254,7 @@ export const articles = [
       "anest-iwata-kiwami",
     ],
     blocks: [
-      { type: "p", text: "Anest Iwata là một trong những thương hiệu súng phun sơn hàng đầu Nhật Bản, nổi tiếng với công nghệ Split Nozzle™ giúp tán sương đều và tiết kiệm vật liệu. Dưới đây là 10 model súng phun sơn Anest Iwata đáng chú ý, được Súng Phun Sơn .NET phân phối chính hãng tại Việt Nam." },
+      { type: "p", text: "Anest Iwata là một trong những thương hiệu súng phun sơn hàng đầu Nhật Bản, nổi tiếng với công nghệ Split Nozzle™ giúp tán sương đều và tiết kiệm vật liệu. Dưới đây là 10 model súng phun sơn Anest Iwata đáng chú ý, được Súng Phun Sơn .NET phân phối tại Việt Nam." },
       {
         type: "ul",
         items: [
