@@ -9,7 +9,7 @@ export default function Footer() {
             SÚNG<span className="text-yellow">PHUN</span>SƠN
           </span>
           <p className="mt-4 text-sm leading-relaxed max-w-xs">
-            Nhà phân phối thiết bị phun sơn DeVilbiss, Wagner, Binks, Anest Iwata tại Việt Nam —
+            Nhà phân phối chính thức DeVilbiss, Binks; nhà phân phối chính hãng Anest Iwata; phân phối thương mại Wagner tại Việt Nam —
             đồng hành cùng garage ô tô, nhà máy sản xuất và xưởng nội thất.
           </p>
         </div>
