@@ -29,6 +29,17 @@ export const metadata = {
   keywords: ["súng phun sơn", "súng phun sơn chính hãng", "devilbiss", "wagner", "binks", "anest iwata"],
 };
 
+const organizationLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Súng Phun Sơn .NET",
+  url: "https://sungphunson.net",
+  telephone: "+84907811767",
+  areaServed: "VN",
+  description:
+    "Website catalogue súng phun sơn chính hãng DeVilbiss, Wagner, Binks, Anest Iwata tại Việt Nam, tiếp nhận yêu cầu báo giá và tư vấn kỹ thuật.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html
@@ -48,6 +59,10 @@ export default function RootLayout({ children }) {
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
