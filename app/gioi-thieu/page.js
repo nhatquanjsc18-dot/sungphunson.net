@@ -3,11 +3,11 @@ import { brands } from "@/data/brands";
 
 export const metadata = {
   title: "Giới thiệu",
-  description: "Nhà phân phối chính hãng thiết bị phun sơn DeVilbiss, Wagner, Binks, Anest Iwata tại Việt Nam.",
+  description: "Nhà phân phối thiết bị phun sơn DeVilbiss, Wagner, Binks, Anest Iwata tại Việt Nam.",
 };
 
 const REASONS = [
-  "Đại lý phân phối chính hãng, có đầy đủ CO, CQ",
+  "Đại lý phân phối, có đầy đủ CO, CQ",
   "Đội ngũ kỹ thuật hỗ trợ tận nơi tại TP.HCM và toàn quốc",
   "Kho phụ kiện, linh kiện thay thế đầy đủ, giao nhanh",
   "Demo thực tế sản phẩm trước khi quyết định mua",
