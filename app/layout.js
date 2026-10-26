@@ -32,8 +32,18 @@ export const metadata = {
 const organizationLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://sungphunson.net/#organization",
   name: "Súng Phun Sơn .NET",
+  legalName: "Công ty Cổ phần Công nghiệp Nhất Quán",
+  alternateName: "NHAT QUAN INS JSC",
+  taxID: "0313814889",
   url: "https://sungphunson.net",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "52-54 Đường số 8, Cư xá Chu Văn An, Phường Bình Thạnh",
+    addressLocality: "TP. Hồ Chí Minh",
+    addressCountry: "VN",
+  },
   telephone: "+84907811767",
   areaServed: "VN",
   description:
