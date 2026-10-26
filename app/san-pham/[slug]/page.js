@@ -29,8 +29,25 @@ export default async function ProductDetailPage({ params }) {
   const brand = brands.find((b) => b.slug === product.brand);
   const related = getProductsByBrand(product.brand).filter((p) => p.slug !== product.slug).slice(0, 4);
 
+  const productLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `https://sungphunson.net/san-pham/${product.slug}#product`,
+    name: product.name,
+    url: `https://sungphunson.net/san-pham/${product.slug}`,
+    description: product.shortDesc,
+    image: [`https://sungphunson.net${product.image}`],
+    ...(brand ? { brand: { "@type": "Brand", name: brand.name } } : {}),
+  };
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productLd).replace(/</g, "\\u003c"),
+        }}
+      />
       <p className="text-sm text-ink/50">
         <Link href="/san-pham" className="hover:text-yellow-deep">Sản phẩm</Link> /{" "}
         <Link href={`/san-pham?brand=${product.brand}`} className="hover:text-yellow-deep">{brand?.name}</Link> /{" "}
